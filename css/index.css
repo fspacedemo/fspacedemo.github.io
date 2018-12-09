@@ -1,0 +1,128 @@
+/*Basic prep*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body,html {
+  width:100%;
+  height:100%;
+  margin: 0;
+  background: #085078;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Lato', sans-serif;
+}
+
+/*Navigation/menu*/
+nav {
+  float: right;
+
+}
+
+li {
+	list-style: none;
+}
+nav ul {
+  margin: 0;
+  padding: 0 50px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 15px;
+  padding-top: 50px;
+  position: relative;
+}
+
+nav a {
+color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+nav a:hover {
+	color: #cccccc;
+}
+
+
+/*parallax*/
+.sectOne {
+	background-image: url("../img/parallax2.jpg");
+}
+.sectTwo {
+	background-image: url("../img/parallax1.jpg");
+}
+
+.sect {
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+/*Generic styling*/
+.mainBody{
+	text-align: center;
+	margin-left:17%;
+	margin-right:17%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.center{
+	text-align: center;
+	width:100%;
+	padding-top: 20%;
+	position: absolute;
+}
+
+.title{
+	color: #ffffff;
+	font-size: 24px;
+
+}
+/*Columns*/
+.rightCol, .leftCol{
+	width:48%;
+	text-align: left;
+}
+
+/*styling imgs*/
+.profileImg{
+	max-width: 300px;
+}
+
+.photo{
+	width:100%;
+}
+
+.photo:hover{
+	opacity: 0.7;
+}
+
+.photoDiv{
+	padding-top: 40px;
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.tri{
+	width: 32%;
+}
+
+/*styling link*/
+.link{
+color: #1A6B8F;
+text-decoration: none;
+}
+
+.link:hover{
+	color: #4AA0C6;
+}
+
